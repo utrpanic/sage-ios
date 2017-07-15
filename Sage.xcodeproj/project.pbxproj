@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1671FA1EFE8A2EACB669879A /* Pods_Sage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D8C4FC2DFE087A2134F677 /* Pods_Sage.framework */; };
+		4C2584736A1C11D1C4D81CDE /* Pods_SageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13366A2DB9DDB220EB78BBF8 /* Pods_SageUITests.framework */; };
+		6BD9C71096BAFE4E231D74A9 /* Pods_SageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B829D9F2809E615CDAF606 /* Pods_SageTests.framework */; };
+		8D5746A71F1A65BE00211488 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5746A61F1A64BA00211488 /* LogManager.swift */; };
+		8D6154811F1A4B5B0025C3EF /* SGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6154801F1A4B5B0025C3EF /* SGViewController.swift */; };
+		8D6154841F1A4C8A0025C3EF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6154831F1A4C8A0025C3EF /* Extension.swift */; };
 		8D7BACA21F1A4A940033350F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA11F1A4A940033350F /* AppDelegate.swift */; };
 		8D7BACA41F1A4A940033350F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA31F1A4A940033350F /* MasterViewController.swift */; };
 		8D7BACA61F1A4A940033350F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA51F1A4A940033350F /* DetailViewController.swift */; };
@@ -35,6 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E68EBDB8F02893C01912D80 /* Pods-SageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SageTests/Pods-SageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		10B829D9F2809E615CDAF606 /* Pods_SageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13366A2DB9DDB220EB78BBF8 /* Pods_SageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC23D7D2C81346D34DEA613 /* Pods-SageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SageUITests/Pods-SageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38FD205BAAC89C4C5EE9B47F /* Pods-Sage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sage.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sage/Pods-Sage.release.xcconfig"; sourceTree = "<group>"; };
+		72D8C4FC2DFE087A2134F677 /* Pods_Sage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD4AE2887B166ED5B23BCB2 /* Pods-SageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SageUITests/Pods-SageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5746A61F1A64BA00211488 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
+		8D6154801F1A4B5B0025C3EF /* SGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGViewController.swift; sourceTree = "<group>"; };
+		8D6154821F1A4B6C0025C3EF /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		8D6154831F1A4C8A0025C3EF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8D7BAC9E1F1A4A940033350F /* Sage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7BACA11F1A4A940033350F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D7BACA31F1A4A940033350F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +66,8 @@
 		8D7BACBF1F1A4A940033350F /* SageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7BACC31F1A4A940033350F /* SageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SageUITests.swift; sourceTree = "<group>"; };
 		8D7BACC51F1A4A940033350F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D6A52153C351CD3B6A84CE /* Pods-SageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SageTests/Pods-SageTests.release.xcconfig"; sourceTree = "<group>"; };
+		F7BD8A2FA2585F413D6B0351 /* Pods-Sage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sage/Pods-Sage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1671FA1EFE8A2EACB669879A /* Pods_Sage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD9C71096BAFE4E231D74A9 /* Pods_SageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +91,53 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2584736A1C11D1C4D81CDE /* Pods_SageUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C04066F383AEC3AF30BBC0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7BD8A2FA2585F413D6B0351 /* Pods-Sage.debug.xcconfig */,
+				38FD205BAAC89C4C5EE9B47F /* Pods-Sage.release.xcconfig */,
+				0E68EBDB8F02893C01912D80 /* Pods-SageTests.debug.xcconfig */,
+				D1D6A52153C351CD3B6A84CE /* Pods-SageTests.release.xcconfig */,
+				7AD4AE2887B166ED5B23BCB2 /* Pods-SageUITests.debug.xcconfig */,
+				1BC23D7D2C81346D34DEA613 /* Pods-SageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		438FB763A0158F0707883CDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72D8C4FC2DFE087A2134F677 /* Pods_Sage.framework */,
+				10B829D9F2809E615CDAF606 /* Pods_SageTests.framework */,
+				13366A2DB9DDB220EB78BBF8 /* Pods_SageUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D5746A51F1A645000211488 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				8D5746A61F1A64BA00211488 /* LogManager.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		8D61547F1F1A4B3D0025C3EF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8D6154801F1A4B5B0025C3EF /* SGViewController.swift */,
+				8D6154831F1A4C8A0025C3EF /* Extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		8D7BAC951F1A4A940033350F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +145,8 @@
 				8D7BACB71F1A4A940033350F /* SageTests */,
 				8D7BACC21F1A4A940033350F /* SageUITests */,
 				8D7BAC9F1F1A4A940033350F /* Products */,
+				1C04066F383AEC3AF30BBC0E /* Pods */,
+				438FB763A0158F0707883CDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +163,8 @@
 		8D7BACA01F1A4A940033350F /* Sage */ = {
 			isa = PBXGroup;
 			children = (
+				8D5746A51F1A645000211488 /* Log */,
+				8D61547F1F1A4B3D0025C3EF /* Common */,
 				8D7BACA11F1A4A940033350F /* AppDelegate.swift */,
 				8D7BACA31F1A4A940033350F /* MasterViewController.swift */,
 				8D7BACA51F1A4A940033350F /* DetailViewController.swift */,
@@ -106,6 +172,7 @@
 				8D7BACAA1F1A4A940033350F /* Assets.xcassets */,
 				8D7BACAC1F1A4A940033350F /* LaunchScreen.storyboard */,
 				8D7BACAF1F1A4A940033350F /* Info.plist */,
+				8D6154821F1A4B6C0025C3EF /* BridgingHeader.h */,
 			);
 			path = Sage;
 			sourceTree = "<group>";
@@ -135,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D7BACC81F1A4A940033350F /* Build configuration list for PBXNativeTarget "Sage" */;
 			buildPhases = (
+				D5F0E40D399FAE8F32DB1C8C /* [CP] Check Pods Manifest.lock */,
 				8D7BAC9A1F1A4A940033350F /* Sources */,
 				8D7BAC9B1F1A4A940033350F /* Frameworks */,
 				8D7BAC9C1F1A4A940033350F /* Resources */,
+				F407CA418296B41425FE7101 /* [CP] Embed Pods Frameworks */,
+				BA945B81E5283612B5661685 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D7BACCB1F1A4A940033350F /* Build configuration list for PBXNativeTarget "SageTests" */;
 			buildPhases = (
+				52355631A0352C9462349CAF /* [CP] Check Pods Manifest.lock */,
 				8D7BACB01F1A4A940033350F /* Sources */,
 				8D7BACB11F1A4A940033350F /* Frameworks */,
 				8D7BACB21F1A4A940033350F /* Resources */,
+				73B7C6FD88736B7AFFD2F887 /* [CP] Embed Pods Frameworks */,
+				93B0EDF767D03B3DCF037413 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D7BACCE1F1A4A940033350F /* Build configuration list for PBXNativeTarget "SageUITests" */;
 			buildPhases = (
+				2606E9531E81CC39C990A728 /* [CP] Check Pods Manifest.lock */,
 				8D7BACBB1F1A4A940033350F /* Sources */,
 				8D7BACBC1F1A4A940033350F /* Frameworks */,
 				8D7BACBD1F1A4A940033350F /* Resources */,
+				AF8A945C6273A05CDC176AA9 /* [CP] Embed Pods Frameworks */,
+				BD2E2EA8FA6778EA5572AA43 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +330,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2606E9531E81CC39C990A728 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52355631A0352C9462349CAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73B7C6FD88736B7AFFD2F887 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SageTests/Pods-SageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B0EDF767D03B3DCF037413 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SageTests/Pods-SageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF8A945C6273A05CDC176AA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SageUITests/Pods-SageUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA945B81E5283612B5661685 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sage/Pods-Sage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD2E2EA8FA6778EA5572AA43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SageUITests/Pods-SageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F0E40D399FAE8F32DB1C8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F407CA418296B41425FE7101 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sage/Pods-Sage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D7BAC9A1F1A4A940033350F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5746A71F1A65BE00211488 /* LogManager.swift in Sources */,
+				8D6154841F1A4C8A0025C3EF /* Extension.swift in Sources */,
 				8D7BACA61F1A4A940033350F /* DetailViewController.swift in Sources */,
 				8D7BACA41F1A4A940033350F /* MasterViewController.swift in Sources */,
+				8D6154811F1A4B5B0025C3EF /* SGViewController.swift in Sources */,
 				8D7BACA21F1A4A940033350F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +638,7 @@
 		};
 		8D7BACC91F1A4A940033350F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7BD8A2FA2585F413D6B0351 /* Pods-Sage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L94QTT73WH;
@@ -428,6 +646,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boxjeon.ios.Sage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Sage/BridgingHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -435,6 +654,7 @@
 		};
 		8D7BACCA1F1A4A940033350F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38FD205BAAC89C4C5EE9B47F /* Pods-Sage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L94QTT73WH;
@@ -442,6 +662,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.boxjeon.ios.Sage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Sage/BridgingHeader.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,6 +670,7 @@
 		};
 		8D7BACCC1F1A4A940033350F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E68EBDB8F02893C01912D80 /* Pods-SageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,6 +687,7 @@
 		};
 		8D7BACCD1F1A4A940033350F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D6A52153C351CD3B6A84CE /* Pods-SageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -481,6 +704,7 @@
 		};
 		8D7BACCF1F1A4A940033350F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD4AE2887B166ED5B23BCB2 /* Pods-SageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L94QTT73WH;
@@ -496,6 +720,7 @@
 		};
 		8D7BACD01F1A4A940033350F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC23D7D2C81346D34DEA613 /* Pods-SageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = L94QTT73WH;
@@ -528,6 +753,7 @@
 				8D7BACCA1F1A4A940033350F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D7BACCB1F1A4A940033350F /* Build configuration list for PBXNativeTarget "SageTests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +762,7 @@
 				8D7BACCD1F1A4A940033350F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D7BACCE1F1A4A940033350F /* Build configuration list for PBXNativeTarget "SageUITests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +771,7 @@
 				8D7BACD01F1A4A940033350F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
