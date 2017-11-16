@@ -1,5 +1,5 @@
 //
-//  MasterViewController.swift
+//  MenuViewController.swift
 //  Sage
 //
 //  Created by gurren-l on 2017. 7. 15..
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class MasterViewController: UITableViewController {
+class MenuViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,8 +51,6 @@ class MasterViewController: UITableViewController {
                 let object = objects[indexPath.row] as! NSDate
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
                 controller.detailItem = object
-                controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
-                controller.navigationItem.leftItemsSupplementBackButton = true
             }
         }
     }

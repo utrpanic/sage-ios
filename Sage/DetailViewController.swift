@@ -6,13 +6,34 @@
 //  Copyright © 2017년 boxjeon. All rights reserved.
 //
 
-import UIKit
-
 class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
+    @IBOutlet weak var button: UIButton!
+    
+    var detailItem: NSDate? {
+        didSet {
+            self.configureView()
+        }
+    }
+    
+    static func create() -> Self {
+        return self.create(storyboardName: "Main")!
+    }
 
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.setupNavigationItem()
+        
+        self.configureView()
+    }
 
+    func setupNavigationItem() {
+        self.navigationItem.leftBarButtonItem = self.splitViewController?.displayModeButtonItem
+        self.navigationItem.leftItemsSupplementBackButton = true
+    }
+    
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem {
@@ -21,25 +42,13 @@ class DetailViewController: UIViewController {
             }
         }
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        configureView()
+    
+    @IBAction func didButtonTap(_ sender: UIButton) {
+        let viewController = DetailViewController.create()
+//        let navigationController = UINavigationController(rootViewController: viewController)
+//        self.present(navigationController, animated: true, completion: nil)
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-    var detailItem: NSDate? {
-        didSet {
-            // Update the view.
-            configureView()
-        }
-    }
-
-
+    
 }
 

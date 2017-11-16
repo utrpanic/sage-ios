@@ -14,13 +14,15 @@
 		8D6154811F1A4B5B0025C3EF /* SGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6154801F1A4B5B0025C3EF /* SGViewController.swift */; };
 		8D6154841F1A4C8A0025C3EF /* SageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6154831F1A4C8A0025C3EF /* SageExtension.swift */; };
 		8D7BACA21F1A4A940033350F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA11F1A4A940033350F /* AppDelegate.swift */; };
-		8D7BACA41F1A4A940033350F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA31F1A4A940033350F /* MasterViewController.swift */; };
+		8D7BACA41F1A4A940033350F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA31F1A4A940033350F /* MenuViewController.swift */; };
 		8D7BACA61F1A4A940033350F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA51F1A4A940033350F /* DetailViewController.swift */; };
 		8D7BACA91F1A4A940033350F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7BACA71F1A4A940033350F /* Main.storyboard */; };
 		8D7BACAB1F1A4A940033350F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7BACAA1F1A4A940033350F /* Assets.xcassets */; };
 		8D7BACAE1F1A4A940033350F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7BACAC1F1A4A940033350F /* LaunchScreen.storyboard */; };
 		8D7BACB91F1A4A940033350F /* SageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACB81F1A4A940033350F /* SageTests.swift */; };
 		8D7BACC41F1A4A940033350F /* SageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACC31F1A4A940033350F /* SageUITests.swift */; };
+		8DE749481FBC03C3003EE7A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE749471FBC03C3003EE7A2 /* MainViewController.swift */; };
+		8DE7494A1FBC04F7003EE7A2 /* SGSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE749491FBC04F7003EE7A2 /* SGSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +56,7 @@
 		8D6154831F1A4C8A0025C3EF /* SageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SageExtension.swift; sourceTree = "<group>"; };
 		8D7BAC9E1F1A4A940033350F /* Sage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7BACA11F1A4A940033350F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D7BACA31F1A4A940033350F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		8D7BACA31F1A4A940033350F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		8D7BACA51F1A4A940033350F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8D7BACA81F1A4A940033350F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D7BACAA1F1A4A940033350F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +68,8 @@
 		8D7BACBF1F1A4A940033350F /* SageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7BACC31F1A4A940033350F /* SageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SageUITests.swift; sourceTree = "<group>"; };
 		8D7BACC51F1A4A940033350F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE749471FBC03C3003EE7A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8DE749491FBC04F7003EE7A2 /* SGSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSplitViewController.swift; sourceTree = "<group>"; };
 		D1D6A52153C351CD3B6A84CE /* Pods-SageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SageTests/Pods-SageTests.release.xcconfig"; sourceTree = "<group>"; };
 		F7BD8A2FA2585F413D6B0351 /* Pods-Sage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sage/Pods-Sage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,7 +173,9 @@
 				8D7BACAC1F1A4A940033350F /* LaunchScreen.storyboard */,
 				8D7BACA11F1A4A940033350F /* AppDelegate.swift */,
 				8D7BACA71F1A4A940033350F /* Main.storyboard */,
-				8D7BACA31F1A4A940033350F /* MasterViewController.swift */,
+				8DE749471FBC03C3003EE7A2 /* MainViewController.swift */,
+				8DE749491FBC04F7003EE7A2 /* SGSplitViewController.swift */,
+				8D7BACA31F1A4A940033350F /* MenuViewController.swift */,
 				8D7BACA51F1A4A940033350F /* DetailViewController.swift */,
 				8D7BACAA1F1A4A940033350F /* Assets.xcassets */,
 				8D7BACAF1F1A4A940033350F /* Info.plist */,
@@ -489,10 +495,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE749481FBC03C3003EE7A2 /* MainViewController.swift in Sources */,
 				8D5746A71F1A65BE00211488 /* LogManager.swift in Sources */,
 				8D6154841F1A4C8A0025C3EF /* SageExtension.swift in Sources */,
+				8DE7494A1FBC04F7003EE7A2 /* SGSplitViewController.swift in Sources */,
 				8D7BACA61F1A4A940033350F /* DetailViewController.swift in Sources */,
-				8D7BACA41F1A4A940033350F /* MasterViewController.swift in Sources */,
+				8D7BACA41F1A4A940033350F /* MenuViewController.swift in Sources */,
 				8D6154811F1A4B5B0025C3EF /* SGViewController.swift in Sources */,
 				8D7BACA21F1A4A940033350F /* AppDelegate.swift in Sources */,
 			);
