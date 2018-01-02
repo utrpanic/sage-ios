@@ -12,4 +12,6 @@
 @import Foundation;
 @import UIKit;
 
+@import BoxJeonExtension;
+
 #endif /* BridgingHeader_h */

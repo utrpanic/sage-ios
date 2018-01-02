@@ -12,15 +12,17 @@
 		6BD9C71096BAFE4E231D74A9 /* Pods_SageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10B829D9F2809E615CDAF606 /* Pods_SageTests.framework */; };
 		8D5746A71F1A65BE00211488 /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D5746A61F1A64BA00211488 /* LogManager.swift */; };
 		8D6154811F1A4B5B0025C3EF /* SGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6154801F1A4B5B0025C3EF /* SGViewController.swift */; };
-		8D6154841F1A4C8A0025C3EF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6154831F1A4C8A0025C3EF /* Extension.swift */; };
+		8D6154841F1A4C8A0025C3EF /* SageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6154831F1A4C8A0025C3EF /* SageExtension.swift */; };
 		8D7BACA21F1A4A940033350F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA11F1A4A940033350F /* AppDelegate.swift */; };
-		8D7BACA41F1A4A940033350F /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA31F1A4A940033350F /* MasterViewController.swift */; };
+		8D7BACA41F1A4A940033350F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA31F1A4A940033350F /* MenuViewController.swift */; };
 		8D7BACA61F1A4A940033350F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACA51F1A4A940033350F /* DetailViewController.swift */; };
 		8D7BACA91F1A4A940033350F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7BACA71F1A4A940033350F /* Main.storyboard */; };
 		8D7BACAB1F1A4A940033350F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D7BACAA1F1A4A940033350F /* Assets.xcassets */; };
 		8D7BACAE1F1A4A940033350F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D7BACAC1F1A4A940033350F /* LaunchScreen.storyboard */; };
 		8D7BACB91F1A4A940033350F /* SageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACB81F1A4A940033350F /* SageTests.swift */; };
 		8D7BACC41F1A4A940033350F /* SageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7BACC31F1A4A940033350F /* SageUITests.swift */; };
+		8DE749481FBC03C3003EE7A2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE749471FBC03C3003EE7A2 /* MainViewController.swift */; };
+		8DE7494A1FBC04F7003EE7A2 /* SGSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE749491FBC04F7003EE7A2 /* SGSplitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,10 +53,10 @@
 		8D5746A61F1A64BA00211488 /* LogManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogManager.swift; sourceTree = "<group>"; };
 		8D6154801F1A4B5B0025C3EF /* SGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGViewController.swift; sourceTree = "<group>"; };
 		8D6154821F1A4B6C0025C3EF /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
-		8D6154831F1A4C8A0025C3EF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8D6154831F1A4C8A0025C3EF /* SageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SageExtension.swift; sourceTree = "<group>"; };
 		8D7BAC9E1F1A4A940033350F /* Sage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7BACA11F1A4A940033350F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8D7BACA31F1A4A940033350F /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		8D7BACA31F1A4A940033350F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		8D7BACA51F1A4A940033350F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		8D7BACA81F1A4A940033350F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D7BACAA1F1A4A940033350F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -66,6 +68,8 @@
 		8D7BACBF1F1A4A940033350F /* SageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7BACC31F1A4A940033350F /* SageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SageUITests.swift; sourceTree = "<group>"; };
 		8D7BACC51F1A4A940033350F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE749471FBC03C3003EE7A2 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8DE749491FBC04F7003EE7A2 /* SGSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSplitViewController.swift; sourceTree = "<group>"; };
 		D1D6A52153C351CD3B6A84CE /* Pods-SageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SageTests/Pods-SageTests.release.xcconfig"; sourceTree = "<group>"; };
 		F7BD8A2FA2585F413D6B0351 /* Pods-Sage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sage/Pods-Sage.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,8 +136,8 @@
 		8D61547F1F1A4B3D0025C3EF /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8D6154831F1A4C8A0025C3EF /* SageExtension.swift */,
 				8D6154801F1A4B5B0025C3EF /* SGViewController.swift */,
-				8D6154831F1A4C8A0025C3EF /* Extension.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -165,14 +169,16 @@
 			children = (
 				8D5746A51F1A645000211488 /* Log */,
 				8D61547F1F1A4B3D0025C3EF /* Common */,
-				8D7BACA11F1A4A940033350F /* AppDelegate.swift */,
-				8D7BACA31F1A4A940033350F /* MasterViewController.swift */,
-				8D7BACA51F1A4A940033350F /* DetailViewController.swift */,
-				8D7BACA71F1A4A940033350F /* Main.storyboard */,
-				8D7BACAA1F1A4A940033350F /* Assets.xcassets */,
-				8D7BACAC1F1A4A940033350F /* LaunchScreen.storyboard */,
-				8D7BACAF1F1A4A940033350F /* Info.plist */,
 				8D6154821F1A4B6C0025C3EF /* BridgingHeader.h */,
+				8D7BACAC1F1A4A940033350F /* LaunchScreen.storyboard */,
+				8D7BACA11F1A4A940033350F /* AppDelegate.swift */,
+				8D7BACA71F1A4A940033350F /* Main.storyboard */,
+				8DE749471FBC03C3003EE7A2 /* MainViewController.swift */,
+				8DE749491FBC04F7003EE7A2 /* SGSplitViewController.swift */,
+				8D7BACA31F1A4A940033350F /* MenuViewController.swift */,
+				8D7BACA51F1A4A940033350F /* DetailViewController.swift */,
+				8D7BACAA1F1A4A940033350F /* Assets.xcassets */,
+				8D7BACAF1F1A4A940033350F /* Info.plist */,
 			);
 			path = Sage;
 			sourceTree = "<group>";
@@ -267,7 +273,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = boxjeon;
 				TargetAttributes = {
 					8D7BAC9D1F1A4A940033350F = {
@@ -337,13 +343,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SageUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		52355631A0352C9462349CAF /* [CP] Check Pods Manifest.lock */ = {
@@ -352,13 +361,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SageTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		73B7C6FD88736B7AFFD2F887 /* [CP] Embed Pods Frameworks */ = {
@@ -442,13 +454,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sage-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F407CA418296B41425FE7101 /* [CP] Embed Pods Frameworks */ = {
@@ -457,9 +472,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Sage/Pods-Sage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/BoxJeonExtension/BoxJeonExtension.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BoxJeonExtension.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -473,10 +495,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE749481FBC03C3003EE7A2 /* MainViewController.swift in Sources */,
 				8D5746A71F1A65BE00211488 /* LogManager.swift in Sources */,
-				8D6154841F1A4C8A0025C3EF /* Extension.swift in Sources */,
+				8D6154841F1A4C8A0025C3EF /* SageExtension.swift in Sources */,
+				8DE7494A1FBC04F7003EE7A2 /* SGSplitViewController.swift in Sources */,
 				8D7BACA61F1A4A940033350F /* DetailViewController.swift in Sources */,
-				8D7BACA41F1A4A940033350F /* MasterViewController.swift in Sources */,
+				8D7BACA41F1A4A940033350F /* MenuViewController.swift in Sources */,
 				8D6154811F1A4B5B0025C3EF /* SGViewController.swift in Sources */,
 				8D7BACA21F1A4A940033350F /* AppDelegate.swift in Sources */,
 			);
@@ -553,6 +577,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -608,6 +634,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
