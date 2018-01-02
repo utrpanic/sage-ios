@@ -31,11 +31,12 @@ class MainViewController : UIViewController {
                 self.setOverrideTraitCollection(nil, forChildViewController: oldValue)
                 
             }
-            if let splitViewcontroller = self.splitViewcontroller {
-                self.addChildViewController(splitViewcontroller)
-                self.view.addSubview(splitViewcontroller.view)
-                splitViewcontroller.didMove(toParentViewController: self)
+            if let splitViewController = self.splitViewcontroller {
+                self.addChildViewController(splitViewController)
+                self.view.addSubview(splitViewController.view)
+                splitViewController.didMove(toParentViewController: self)
                 self.forceNewTrait()
+                
             }
         }
     }
