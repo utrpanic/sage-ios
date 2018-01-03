@@ -20,14 +20,21 @@ class SGSplitViewController: UISplitViewController, UISplitViewControllerDelegat
     }
     
     override var minimumPrimaryColumnWidth: CGFloat {
-        get { return self.displayMode == .allVisible ? abs(UIScreen.main.bounds.height - UIScreen.main.bounds.width) : min(UIScreen.main.bounds.width, UIScreen.main.bounds.height) }
+        get { return self.displayMode == .allVisible ? abs(UIScreen.main.bounds.height - UIScreen.main.bounds.width) : 210 }
+        set { /* do nothing. */ }
+    }
+
+    override var maximumPrimaryColumnWidth: CGFloat {
+        get { return self.displayMode == .allVisible ? abs(UIScreen.main.bounds.height - UIScreen.main.bounds.width) : 210 }
         set { /* do nothing. */ }
     }
     
-    override var maximumPrimaryColumnWidth: CGFloat {
-        get { return self.displayMode == .allVisible ? abs(UIScreen.main.bounds.height - UIScreen.main.bounds.width) : min(UIScreen.main.bounds.width, UIScreen.main.bounds.height) }
-        set { /* do nothing. */ }
-    }
+    var dimmedView: UIView = {
+        let view = UIView()
+        view.backgroundColor = UIColor.black.withAlphaComponent(0.8)
+        view.alpha = 0
+        return view
+    }()
     
     var selectedMenu: Int? = nil
     
@@ -44,9 +51,25 @@ class SGSplitViewController: UISplitViewController, UISplitViewControllerDelegat
         } else {
             self.preferredDisplayMode = .primaryHidden
         }
+        self.dimmedView.frame = self.view.frame
     }
     
     // MARK: - UISplitViewControllerDelegate
+    func splitViewController(_ svc: UISplitViewController, willChangeTo displayMode: UISplitViewControllerDisplayMode) {
+        if displayMode == .primaryOverlay {
+            svc.view.addSubview(self.dimmedView)
+            UIView.animate(withDuration: 0.25, animations: {
+                self.dimmedView.alpha = 1
+            })
+        } else {
+            UIView.animate(withDuration: 0.25, animations: {
+                self.dimmedView.alpha = 0
+            }, completion: { (_) in
+                self.dimmedView.removeFromSuperview()
+            })
+        }
+    }
+    
     func targetDisplayModeForAction(in svc: UISplitViewController) -> UISplitViewControllerDisplayMode {
         if svc.preferredDisplayMode == .automatic {
             return .automatic
