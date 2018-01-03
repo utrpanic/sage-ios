@@ -19,6 +19,16 @@ class SGSplitViewController: UISplitViewController, UISplitViewControllerDelegat
         }
     }
     
+    override var minimumPrimaryColumnWidth: CGFloat {
+        get { return self.displayMode == .allVisible ? abs(UIScreen.main.bounds.height - UIScreen.main.bounds.width) : min(UIScreen.main.bounds.width, UIScreen.main.bounds.height) }
+        set { /* do nothing. */ }
+    }
+    
+    override var maximumPrimaryColumnWidth: CGFloat {
+        get { return self.displayMode == .allVisible ? abs(UIScreen.main.bounds.height - UIScreen.main.bounds.width) : min(UIScreen.main.bounds.width, UIScreen.main.bounds.height) }
+        set { /* do nothing. */ }
+    }
+    
     var selectedMenu: Int? = nil
     
     static func create() -> Self {
